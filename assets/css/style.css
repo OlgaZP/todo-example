@@ -1,0 +1,28 @@
+#taskListContainer {
+    display: flex;
+    flex-direction: column;   
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+input {
+    width: 70%;
+}
+
+.valid {
+    border-color: green;
+    background-color: lightgreen;
+}
+
+.invalid {
+    border-color: red;
+    background-color: lightsalmon;
+}
